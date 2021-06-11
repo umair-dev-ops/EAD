@@ -1,0 +1,21 @@
+﻿@page "/"
+
+<div class="card-group">
+@foreach (var product in Catalog.Products)
+{
+    <ProductItem Product="@product"></ProductItem>
+}
+ </div>
+
+@code
+{
+    private Catalog Catalog { get; set; } = new Catalog
+    {
+        Products = new List<Product>
+        {
+            new Product(1,"Table",8000,Category.Furniture),
+            new Product(1,"Jeans",2000,Category.Cloth),
+            new Product(1,"FootBall",1000,Category.Sport)
+        }
+    };
+}

@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Server\\EAD_Project.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Client\\EAD_Project.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Client\\EAD_Project.Client.csproj",
+        "projectName": "EAD_Project.Client",
+        "projectPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Client\\EAD_Project.Client.csproj",
+        "packagesPath": "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\UMAIR AHMED\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj": {
+                "projectPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Server\\EAD_Project.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Server\\EAD_Project.Server.csproj",
+        "projectName": "EAD_Project.Server",
+        "projectPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Server\\EAD_Project.Server.csproj",
+        "packagesPath": "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\UMAIR AHMED\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Client\\EAD_Project.Client.csproj": {
+                "projectPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Client\\EAD_Project.Client.csproj"
+              },
+              "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj": {
+                "projectPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj",
+        "projectName": "EAD_Project.Shared",
+        "projectPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj",
+        "packagesPath": "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\UMAIR AHMED\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
