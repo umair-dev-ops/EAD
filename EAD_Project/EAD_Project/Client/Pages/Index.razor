@@ -3,12 +3,19 @@
 <div class="card-group">
 @foreach (var product in Catalog.Products)
 {
-    <ProductItem Product="@product"></ProductItem>
+    <ProductItem Product="@product"
+                SelectedProduct="@(async(p)=>AddtoCart(p))"></ProductItem>
 }
  </div>
 
 @code
 {
+    public Cart Cart { get; set; } = new Cart();
+
+    private void AddtoCart(Product product)
+    {
+        Console.WriteLine($"Product added: {@product.Name}");
+    }
     private Catalog Catalog { get; set; } = new Catalog
     {
         Products = new List<Product>

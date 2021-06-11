@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj",
+      "projectUniqueName": "C:\\EAD\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj",
       "projectName": "EAD_Project.Shared",
-      "projectPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj",
+      "projectPath": "C:\\EAD\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj",
       "packagesPath": "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\obj\\",
+      "outputPath": "C:\\EAD\\EAD_Project\\EAD_Project\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\UMAIR AHMED\\AppData\\Roaming\\NuGet\\NuGet.Config",

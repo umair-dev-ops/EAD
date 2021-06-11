@@ -1658,11 +1658,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Client\\EAD_Project.Client.csproj",
+      "projectUniqueName": "C:\\EAD\\EAD_Project\\EAD_Project\\Client\\EAD_Project.Client.csproj",
       "projectName": "EAD_Project.Client",
-      "projectPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Client\\EAD_Project.Client.csproj",
+      "projectPath": "C:\\EAD\\EAD_Project\\EAD_Project\\Client\\EAD_Project.Client.csproj",
       "packagesPath": "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Client\\obj\\",
+      "outputPath": "C:\\EAD\\EAD_Project\\EAD_Project\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\UMAIR AHMED\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1679,8 +1679,8 @@
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj": {
-              "projectPath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj"
+            "C:\\EAD\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj": {
+              "projectPath": "C:\\EAD\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj"
             }
           }
         }

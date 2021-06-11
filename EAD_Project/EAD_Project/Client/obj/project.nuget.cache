@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+c4v+lfgKXJoDPAujesbAcZyTweUf5x9RrLNq77qCYUYjZEXWw/JKDrRuXzCEBh4XCmzArWcdKcNwIH9hLAzxw==",
+  "dgSpecHash": "/WaMBz/DRkNZ/FxQLIaHVE3FH5KwbLnpTG/z62zwjIST7JFeQQ9BmhcQTiIpFVQF/wPD/mtR7VqpLTxvXh/uFA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\UMAIR AHMED\\source\\repos\\EAD_Project\\EAD_Project\\Client\\EAD_Project.Client.csproj",
+  "projectFilePath": "C:\\EAD\\EAD_Project\\EAD_Project\\Client\\EAD_Project.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
