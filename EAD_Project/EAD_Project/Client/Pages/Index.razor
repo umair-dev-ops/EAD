@@ -11,7 +11,9 @@
     }
 </div>
 
-<ShoppingCart Cart="@Cart" Title="Your Cart" GetProductFromId="@Catalog.GetProduct">
+<ShoppingCart Cart="@Cart" Title="Your Cart"
+              GetProductFromId="@Catalog.GetProduct"
+              Selected="@((pos)=> RemoveFromCart(pos))">
 
 </ShoppingCart>
 
@@ -25,6 +27,15 @@
         Console.WriteLine($"Product added: {@product.Name}");
         Cart.Add(product.Id);
     }
+    private void RemoveFromCart(int pos)
+    {
+        Console.WriteLine($"Product removed at: {pos}");
+        Cart.Remove(pos);
+    }
+
+
+
+
     private Catalog Catalog { get; set; } = new Catalog
     {
         Products = new List<Product>

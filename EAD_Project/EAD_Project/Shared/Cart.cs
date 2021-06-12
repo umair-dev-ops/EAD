@@ -11,6 +11,11 @@ namespace EAD_Project.Shared
         {
             Orders.Add(productId);
         }
+
+        public void Remove(int position)
+        {
+            Orders.RemoveAt(position);
+        }
     
 
     }

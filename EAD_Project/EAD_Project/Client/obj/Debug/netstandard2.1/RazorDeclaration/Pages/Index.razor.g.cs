@@ -91,7 +91,7 @@ using EAD_Project.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 20 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\Index.razor"
+#line 22 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\Index.razor"
  
     public Cart Cart { get; set; } = new Cart();
 
@@ -100,6 +100,15 @@ using EAD_Project.Shared;
         Console.WriteLine($"Product added: {@product.Name}");
         Cart.Add(product.Id);
     }
+    private void RemoveFromCart(int pos)
+    {
+        Console.WriteLine($"Product removed at: {pos}");
+        Cart.Remove(pos);
+    }
+
+
+
+
     private Catalog Catalog { get; set; } = new Catalog
     {
         Products = new List<Product>

@@ -90,23 +90,26 @@ using EAD_Project.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 17 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\ShoppingCart.razor"
+#line 20 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\ShoppingCart.razor"
        
+
+    [Parameter]
+    public EventCallback<int> Selected { get; set; }
     [Parameter]
     public string Title { get; set; }
 
     [Parameter]
     public Cart Cart { get; set; }
 
-    public IEnumerable<Product> Products { get; set; }
+    public IEnumerable<(Product, int pos)> Products { get; set; }
     [Parameter]
     public Func<int,Product> GetProductFromId { get; set; }
 
     protected override void OnParametersSet()
     {
         base.OnParametersSet();
-        Products = Cart.Orders.Select((id) =>
-        GetProductFromId(id));
+        Products = Cart.Orders.Select((id,position) =>
+        (product: GetProductFromId(id),position:position));
 
     }
 
