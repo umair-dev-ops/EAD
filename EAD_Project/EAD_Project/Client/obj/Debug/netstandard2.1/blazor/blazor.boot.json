@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "EAD_Project.Client.dll": "sha256-VDa16uVUTaUGQNLs8QnuGNgbAYibdPYqR6wUZirRtO4=",
+      "EAD_Project.Client.dll": "sha256-9sJc4\/Df0EBplGC8gepj4mJYcyv+XXW8aY9B0jSntXQ=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-Bs1Wrmh4ex9dTEIT0yCRF52N\/wOmsBDt457BHr0\/ssM=",
       "netstandard.dll": "sha256-\/zcPVM75OAY+joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=",
       "System.Xml.Linq.dll": "sha256-IPbQMdJxZXdk8HTlaPyXdQ6Zb82iZLphnM74yO4EURQ=",
@@ -60,7 +60,7 @@
       "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "EAD_Project.Client.pdb": "sha256-vjoqK3QGhBxX0c\/S5yWUGGMr9WQOGfzpv6imVZq3ihU=",
+      "EAD_Project.Client.pdb": "sha256-xZc+y\/axGBJKpn4AH\/UalAMeGVdc937nGk4qzpD9XRk=",
       "EAD_Project.Shared.pdb": "sha256-8\/ELGKYO\/oFCNI+ijWZ\/isTArpUQYDPvgJfUMYBCjC4="
     },
     "runtime": {

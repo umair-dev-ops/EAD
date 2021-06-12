@@ -82,7 +82,7 @@ using EAD_Project.Shared;
 #line default
 #line hidden
 #nullable disable
-    public partial class ProductItem : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class ShoppingCart : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -90,26 +90,26 @@ using EAD_Project.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 17 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\ProductItem.razor"
+#line 17 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\ShoppingCart.razor"
        
     [Parameter]
-    public Product Product { get; set; }
+    public string Title { get; set; }
 
     [Parameter]
-    public string ButtonTitle { get; set; }
+    public Cart Cart { get; set; }
 
+    public IEnumerable<Product> Products { get; set; }
     [Parameter]
-    public string ButtonClass { get; set; }
+    public Func<int,Product> GetProductFromId { get; set; }
 
-    [Parameter]
-    public EventCallback<Product> SelectedProduct { get; set; }
-
-    private string ProductImage(Category category)
+    protected override void OnParametersSet()
     {
-
-        return $"Images/{category.ToString().ToLower()}.jpg";
+        base.OnParametersSet();
+        Products = Cart.Orders.Select((id) =>
+        GetProductFromId(id));
 
     }
+
 
 #line default
 #line hidden

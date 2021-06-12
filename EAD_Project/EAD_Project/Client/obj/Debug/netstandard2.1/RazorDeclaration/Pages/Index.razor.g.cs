@@ -91,21 +91,22 @@ using EAD_Project.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 12 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\Index.razor"
+#line 20 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\Index.razor"
  
     public Cart Cart { get; set; } = new Cart();
 
     private void AddtoCart(Product product)
     {
         Console.WriteLine($"Product added: {@product.Name}");
+        Cart.Add(product.Id);
     }
     private Catalog Catalog { get; set; } = new Catalog
     {
         Products = new List<Product>
-        {
+{
             new Product(1,"Table",8000,Category.Furniture),
-            new Product(1,"Jeans",2000,Category.Cloth),
-            new Product(1,"FootBall",1000,Category.Sport)
+            new Product(2,"Jeans",2000,Category.Cloth),
+            new Product(3,"FootBall",1000,Category.Sport)
         }
     };
 

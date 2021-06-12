@@ -5,10 +5,10 @@
         <p class="card-text">@Product.Price </p>
         <p class="card-text">@Product.Category </p>
         <div class="card-footer">
-            <a href="#" class="btn btn-primary"
+            <a href="#" class="@ButtonClass"
                @onclick="@(async()=> await SelectedProduct.InvokeAsync(Product))"
                >
-               Add</a>
+               @ButtonTitle</a>
 
         </div>
     </div>
@@ -17,6 +17,12 @@
 @code {
     [Parameter]
     public Product Product { get; set; }
+
+    [Parameter]
+    public string ButtonTitle { get; set; }
+
+    [Parameter]
+    public string ButtonClass { get; set; }
 
     [Parameter]
     public EventCallback<Product> SelectedProduct { get; set; }

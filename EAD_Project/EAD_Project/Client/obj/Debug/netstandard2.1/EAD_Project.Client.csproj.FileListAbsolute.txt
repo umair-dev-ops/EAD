@@ -541,7 +541,6 @@ C:\EAD\EAD_Project\EAD_Project\Client\bin\Debug\netstandard2.1\System.Threading.
 C:\EAD\EAD_Project\EAD_Project\Client\bin\Debug\netstandard2.1\EAD_Project.Shared.dll
 C:\EAD\EAD_Project\EAD_Project\Client\bin\Debug\netstandard2.1\EAD_Project.Shared.pdb
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\blazor\unlinked.output
-C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\VDa16uVUTaUGQNLs8QnuGNgbAYibdPYqR6wUZirRtO4=.hash
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\Bs1Wrmh4ex9dTEIT0yCRF52N-wOmsBDt457BHr0-ssM=.hash
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\-zcPVM75OAY_joGVM8yIC1gO1SFYWP1CFERgQ8PJkfA=.hash
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\IPbQMdJxZXdk8HTlaPyXdQ6Zb82iZLphnM74yO4EURQ=.hash
@@ -593,14 +592,12 @@ C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\_kkwUt5
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=.hash
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=.hash
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\czNf3btAeBW-vvID5LAfgcsNZ_GM3ssVuPaMflcg0rs=.hash
-C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\vjoqK3QGhBxX0c-S5yWUGGMr9WQOGfzpv6imVZq3ihU=.hash
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\8-ELGKYO-oFCNI_ijWZ-isTArpUQYDPvgJfUMYBCjC4=.hash
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\blazor\blazor.boot.json
-C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\M6VZIKiNODbQGUSMlLrgEda-AbQcjy8UWOuNidW3OoQ=.hash
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\EAD_Project.Client.dll.gz
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\compressed\_framework\_bin\netstandard.dll.gz
@@ -724,3 +721,8 @@ C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\staticwebassets\E
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\scopedcss\bundle\EAD_Project.Client.styles.css
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\EAD_Project.Client.RazorTargetAssemblyInfo.cache
 C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\EAD_Project.Client.csproj.CopyComplete
+C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\RazorDeclaration\Pages\ShoppingCart.razor.g.cs
+C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\Razor\Pages\ShoppingCart.razor.g.cs
+C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\9sJc4-Df0EBplGC8gepj4mJYcyv_XXW8aY9B0jSntXQ=.hash
+C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\xZc_y-axGBJKpn4AH-UalAMeGVdc937nGk4qzpD9XRk=.hash
+C:\EAD\EAD_Project\EAD_Project\Client\obj\Debug\netstandard2.1\integrity\QwJUTKl7BfPxamLHVorO4aszl0FUCuaS5tKrxS6-JA0=.hash
