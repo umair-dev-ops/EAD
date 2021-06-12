@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/WaMBz/DRkNZ/FxQLIaHVE3FH5KwbLnpTG/z62zwjIST7JFeQQ9BmhcQTiIpFVQF/wPD/mtR7VqpLTxvXh/uFA==",
+  "dgSpecHash": "IkRyRDXRo592XPQMBmE+cbZBVFm9fXmHpj83zAgJDsx34gw4Dkvps5uIlHjAu56J6oeEURe8AjI3bC/1eFU16A==",
   "success": true,
   "projectFilePath": "C:\\EAD\\EAD_Project\\EAD_Project\\Client\\EAD_Project.Client.csproj",
   "expectedPackageFiles": [
@@ -33,7 +33,7 @@
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\microsoft.jsinterop\\3.1.6\\microsoft.jsinterop.3.1.6.nupkg.sha512",
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\microsoft.jsinterop.webassembly\\3.2.1\\microsoft.jsinterop.webassembly.3.2.1.nupkg.sha512",
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
-    "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
+    "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\system.net.http.json\\3.2.0\\system.net.http.json.3.2.0.nupkg.sha512",
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",

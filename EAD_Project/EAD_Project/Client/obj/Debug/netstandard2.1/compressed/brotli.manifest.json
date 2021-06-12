@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Mtc0vxTGUqRNssAAp0dJAu3SCSskhCyqgsYtgsiQelc=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\rG9chdMGn1z8HuHeB2xtiTFrk15O-ztkefXkWcIU2po=.hash",
       "Source": "C:\\EAD\\EAD_Project\\EAD_Project\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\EAD_Project.Client.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/EAD_Project.Client.dll.br"
     },
@@ -156,7 +156,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\AQ3HEdbuRLPWcRRawpF-y9eATRN0el114QyUapnPLUY=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\8SnXEBnvLiTXQTNjGyAJmp_3Tm7ogEpLWCQJ2YO6Hog=.hash",
       "Source": "C:\\EAD\\EAD_Project\\EAD_Project\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\EAD_Project.Shared.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/EAD_Project.Shared.dll.br"
     },
@@ -261,12 +261,12 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_FyKlUM89z5qoa1L7NhbddmkT7eJMswfuEp0n6WOI3c=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\7xqkN1nuwJhmTiGsYgWJ7Al_MoMw4NuhyMPzZYe77r8=.hash",
       "Source": "C:\\EAD\\EAD_Project\\EAD_Project\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\EAD_Project.Client.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/EAD_Project.Client.pdb.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Qk3MzeeN85PpW2-JCqxbR0r-cJ1pAEhuMwXMbRIn2y4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\5eOZZonQey-kpfuvnkor94XISNIkbTYVkGKfuTYpJ-A=.hash",
       "Source": "C:\\EAD\\EAD_Project\\EAD_Project\\Client\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\EAD_Project.Shared.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/EAD_Project.Shared.pdb.br"
     },
@@ -291,7 +291,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Hhlfh6noe_XQ7vIcUQ7LK_iny9rXZynYRIW1uPomCW4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\_FGacVBbNGh-upPoJca5UA6_2gpi7qrK2OnJrEuVpSE=.hash",
       "Source": "C:\\EAD\\EAD_Project\\EAD_Project\\Client\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

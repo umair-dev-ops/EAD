@@ -428,3 +428,4 @@ C:\EAD\EAD_Project\EAD_Project\Server\obj\Debug\netcoreapp3.1\EAD_Project.Server
 C:\EAD\EAD_Project\EAD_Project\Server\obj\Debug\netcoreapp3.1\EAD_Project.Server.dll
 C:\EAD\EAD_Project\EAD_Project\Server\obj\Debug\netcoreapp3.1\EAD_Project.Server.pdb
 C:\EAD\EAD_Project\EAD_Project\Server\obj\Debug\netcoreapp3.1\EAD_Project.Server.genruntimeconfig.cache
+C:\EAD\EAD_Project\EAD_Project\Server\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll

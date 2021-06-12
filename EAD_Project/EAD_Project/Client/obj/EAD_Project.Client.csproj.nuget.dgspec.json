@@ -58,6 +58,10 @@
               "target": "Package",
               "version": "[3.2.1, )"
             },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[3.2.0, )"
@@ -117,6 +121,12 @@
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fuBMThb1HgzVEC3dHW0ZqGnJFU+cM0P/ROlJ0gcUqtSNfUf/4AYFopdiLfAneruWse9e2GvPy4nLm7708iLDhQ==",
+  "dgSpecHash": "epWeXoVvivrJem5prHT3a448QHnvHcb6WmDwgZ9FgRfu3Lcm+UsbnRN9Zl/edv1LFEjmvnlmMHMFqegoVeJuQw==",
   "success": true,
   "projectFilePath": "C:\\EAD\\EAD_Project\\EAD_Project\\Server\\EAD_Project.Server.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.6\\microsoft.extensions.primitives.3.1.6.nupkg.sha512",
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\microsoft.jsinterop\\3.1.6\\microsoft.jsinterop.3.1.6.nupkg.sha512",
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\microsoft.jsinterop.webassembly\\3.2.1\\microsoft.jsinterop.webassembly.3.2.1.nupkg.sha512",
+    "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\system.net.http.json\\3.2.0\\system.net.http.json.3.2.0.nupkg.sha512",
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\system.text.json\\4.7.1\\system.text.json.4.7.1.nupkg.sha512"
   ],

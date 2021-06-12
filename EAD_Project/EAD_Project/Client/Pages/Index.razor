@@ -18,8 +18,20 @@
 </ShoppingCart>
 
 
+<CustomerComponent Title="Please Enter Your Details" 
+                   ButtonTitle="Checkout"
+                   ButtonClass="btn btn-primary"
+                   Submit="@PlaceOrder">
+
+</CustomerComponent>
+
 @code
 {
+    private void PlaceOrder()
+    {
+        Console.WriteLine("placing order");
+    }
+
     public Cart Cart { get; set; } = new Cart();
 
     private void AddtoCart(Product product)

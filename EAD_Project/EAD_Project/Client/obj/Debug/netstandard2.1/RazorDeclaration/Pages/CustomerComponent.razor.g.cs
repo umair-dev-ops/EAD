@@ -82,8 +82,7 @@ using EAD_Project.Shared;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/")]
-    public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class CustomerComponent : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -91,38 +90,22 @@ using EAD_Project.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 29 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\Index.razor"
- 
-    private void PlaceOrder()
-    {
-        Console.WriteLine("placing order");
-    }
+#line 40 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\CustomerComponent.razor"
+       
+    [Parameter]
+    public string Title { get; set; }
 
-    public Cart Cart { get; set; } = new Cart();
+    [Parameter]
+    public string ButtonTitle { get; set; }
 
-    private void AddtoCart(Product product)
-    {
-        Console.WriteLine($"Product added: {@product.Name}");
-        Cart.Add(product.Id);
-    }
-    private void RemoveFromCart(int pos)
-    {
-        Console.WriteLine($"Product removed at: {pos}");
-        Cart.Remove(pos);
-    }
+    [Parameter]
+    public string ButtonClass { get; set; }
 
+    [Parameter]
+    public Customer Customer { get; set; } = new Customer();
 
-
-
-    private Catalog Catalog { get; set; } = new Catalog
-    {
-        Products = new List<Product>
-{
-            new Product(1,"Table",8000,Category.Furniture),
-            new Product(2,"Jeans",2000,Category.Cloth),
-            new Product(3,"FootBall",1000,Category.Sport)
-        }
-    };
+    [Parameter]
+    public EventCallback Submit { get; set; }
 
 #line default
 #line hidden
