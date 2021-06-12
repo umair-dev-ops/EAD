@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oxxBCaI3ISFTaLqaG9QRES+8+eTS8J5yW7kbd4so9PXgZ8/sbGNsf//7deyWqwtN8i09slPJlYpH0osgtVy4pA==",
+  "dgSpecHash": "IypP+x5ErM64lZZZAL9mV5MLhwBjyfpSyf5xWRznamU3/0cN4baVIJk7x572vjbxjdR62r1h5M2vS55Lk8SD8w==",
   "success": true,
   "projectFilePath": "C:\\EAD\\EAD_Project\\EAD_Project\\Shared\\EAD_Project.Shared.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.1\\microsoft.extensions.dependencyinjection.5.0.1.nupkg.sha512",
+    "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\UMAIR AHMED\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
   ],
   "logs": []

@@ -82,6 +82,13 @@ using EAD_Project.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\EAD\EAD_Project\EAD_Project\Client\_Imports.razor"
+using EAD_Project.Client.Services;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {
@@ -91,7 +98,7 @@ using EAD_Project.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 29 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\Index.razor"
+#line 30 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\Index.razor"
  
     private void PlaceOrder()
     {
@@ -111,22 +118,29 @@ using EAD_Project.Shared;
         Cart.Remove(pos);
     }
 
-
-
-
-    private Catalog Catalog { get; set; } = new Catalog
+    protected async override Task OnInitializedAsync()
     {
+        Catalog = await svc.GetCatalog();
+        await base.OnInitializedAsync();
+    }
+
+
+    private Catalog Catalog { get; set; } = new Catalog();
+
+    /*{
         Products = new List<Product>
-{
+        {
             new Product(1,"Table",8000,Category.Furniture),
             new Product(2,"Jeans",2000,Category.Cloth),
             new Product(3,"FootBall",1000,Category.Sport)
         }
-    };
+    };*/
+
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ProductService svc { get; set; }
     }
 }
 #pragma warning restore 1591

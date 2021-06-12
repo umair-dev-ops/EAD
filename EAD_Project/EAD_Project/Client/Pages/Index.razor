@@ -1,10 +1,11 @@
 ﻿@page "/"
+@inject ProductService svc
 <h1>Products</h1>
 <div class="card-group">
     @foreach (var product in Catalog.Products)
     {
         <ProductItem Product="@product"
-                     SelectedProduct="@(async(p)=>AddtoCart(p))"
+                     SelectedProduct="@(async (p) => AddtoCart(p))"
                      ButtonClass="btn btn-primary" ButtonTitle="Add">
 
         </ProductItem>
@@ -13,7 +14,7 @@
 
 <ShoppingCart Cart="@Cart" Title="Your Cart"
               GetProductFromId="@Catalog.GetProduct"
-              Selected="@((pos)=> RemoveFromCart(pos))">
+              Selected="@((pos) => RemoveFromCart(pos))">
 
 </ShoppingCart>
 
@@ -45,16 +46,22 @@
         Cart.Remove(pos);
     }
 
-
-
-
-    private Catalog Catalog { get; set; } = new Catalog
+    protected async override Task OnInitializedAsync()
     {
+        Catalog = await svc.GetCatalog();
+        await base.OnInitializedAsync();
+    }
+
+
+    private Catalog Catalog { get; set; } = new Catalog();
+
+    /*{
         Products = new List<Product>
-{
+        {
             new Product(1,"Table",8000,Category.Furniture),
             new Product(2,"Jeans",2000,Category.Cloth),
             new Product(3,"FootBall",1000,Category.Sport)
         }
-    };
+    };*/
+
 }

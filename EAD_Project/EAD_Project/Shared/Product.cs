@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -12,6 +13,12 @@ namespace EAD_Project.Shared
     }
     public class Product
     {
+       
+        [JsonConstructor]
+        public Product()
+        {
+                
+        }
         public Product(int id,string name,decimal price,Category category)
         {
             this.Id = id;

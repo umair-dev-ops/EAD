@@ -79,6 +79,13 @@ using EAD_Project.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 11 "C:\EAD\EAD_Project\EAD_Project\Client\_Imports.razor"
+using EAD_Project.Client.Services;
+
+#line default
+#line hidden
+#nullable disable
     public partial class ShoppingCart : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
