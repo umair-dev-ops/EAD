@@ -1,15 +1,17 @@
 ﻿@inherits LayoutComponentBase
 
-<div class="sidebar">
-    <NavMenu />
-</div>
 
-<div class="main">
-    <div class="top-row px-4">
-        <a href="http://blazor.net" target="_blank" class="ml-md-auto">About</a>
-    </div>
+<NavMenu></NavMenu>
 
-    <div class="content px-4">
+    
+
+    <div class="container" style="margin-top:100px">
         @Body
     </div>
-</div>
+
+
+@*<footer class="border-top footer text-muted fixed-bottom">
+    <div class="container mt-4 mb-4">
+        &copy; 2019 - Blazor-Top-Menu
+    </div>
+</footer>*@

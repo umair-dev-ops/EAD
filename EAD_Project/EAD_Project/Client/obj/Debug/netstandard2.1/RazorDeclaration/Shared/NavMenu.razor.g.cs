@@ -89,7 +89,7 @@ using EAD_Project.Client.Services;
 #line default
 #line hidden
 #nullable disable
-    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase
+    public partial class NavMenu : Microsoft.AspNetCore.Components.ComponentBase, IDisposable
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -97,20 +97,37 @@ using EAD_Project.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 19 "C:\EAD\EAD_Project\EAD_Project\Client\Shared\NavMenu.razor"
-       
-    private bool collapseNavMenu = true;
+#line 46 "C:\EAD\EAD_Project\EAD_Project\Client\Shared\NavMenu.razor"
+        bool collapseNavMenu = true;
 
-    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+    string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 
-    private void ToggleNavMenu()
+    void ToggleNavMenu()
     {
         collapseNavMenu = !collapseNavMenu;
     }
 
+    void CollapseNavMenu()
+    {
+        collapseNavMenu = true;
+    }
+ 
+    protected override void OnInitialized()
+    {
+        Model.OnChange += StateHasChanged;
+        base.OnInitialized();
+    }
+
+    public void Dispose()
+    {
+        Model.OnChange -= StateHasChanged;
+    }
+
+
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private CounterStateService Model { get; set; }
     }
 }
 #pragma warning restore 1591

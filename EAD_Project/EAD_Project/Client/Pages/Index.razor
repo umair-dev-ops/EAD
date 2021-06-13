@@ -1,67 +1,99 @@
 ﻿@page "/"
-@inject ProductService svc
-<h1>Products</h1>
-<div class="card-group">
-    @foreach (var product in Catalog.Products)
-    {
-        <ProductItem Product="@product"
-                     SelectedProduct="@(async (p) => AddtoCart(p))"
-                     ButtonClass="btn btn-primary" ButtonTitle="Add">
+    <!DOCTYPE html>
+ 
+    <body>
+       
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div style="height:550px" class="carousel-item active">
+                    <img  class="d-block w-100" src="/Images/freestocks-_3Q3tsJ01nc-unsplash.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <center>
+                            <div class="banner_content">
+                                <h1>We sell lifestyle.</h1>
+                                <p>Flat 40% OFF on premium brands</p>
+                                <NavLink href="showcatalog" class="btn btn-danger
+                                    btn-lg active">Shop Now</NavLink>
+                            </div>
+                        </center>
+                        <br />
+                    </div>
+                </div>
+                <div style="height:550px" class="carousel-item">
+                    <img class="d-block w-100" src="/Images/latrach-med-jamil-hmkr5yKXres-unsplash.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Clothing</h1>
+                        <h5>Shope the Comfy styles</h5>
+                    </div>
+                </div>
+                <div style="height:550px" class="carousel-item">
+                    <img class="d-block w-100" src="/Images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h1>Refresh your Space</h1>
+                        <h5>Shope the Home store</h5>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
 
-        </ProductItem>
-    }
-</div>
-
-<ShoppingCart Cart="@Cart" Title="Your Cart"
-              GetProductFromId="@Catalog.GetProduct"
-              Selected="@((pos) => RemoveFromCart(pos))">
-
-</ShoppingCart>
+        @* is uper jugaar *@
+      
 
 
-<CustomerComponent Title="Please Enter Your Details" 
-                   ButtonTitle="Checkout"
-                   ButtonClass="btn btn-primary"
-                   Submit="@PlaceOrder">
-
-</CustomerComponent>
-
-@code
-{
-    private void PlaceOrder()
-    {
-        Console.WriteLine("placing order");
-    }
-
-    public Cart Cart { get; set; } = new Cart();
-
-    private void AddtoCart(Product product)
-    {
-        Console.WriteLine($"Product added: {@product.Name}");
-        Cart.Add(product.Id);
-    }
-    private void RemoveFromCart(int pos)
-    {
-        Console.WriteLine($"Product removed at: {pos}");
-        Cart.Remove(pos);
-    }
-
-    protected async override Task OnInitializedAsync()
-    {
-        Catalog = await svc.GetCatalog();
-        await base.OnInitializedAsync();
-    }
 
 
-    private Catalog Catalog { get; set; } = new Catalog();
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="products.php#cameras">
+                        <div class="thumbnail">
+                            <img src="img/1.jpg" alt="">
+                            <div class="caption">
+                                <h3>Cameras</h3>
+                                <p>Choose among the best available in the world.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
-    /*{
-        Products = new List<Product>
-        {
-            new Product(1,"Table",8000,Category.Furniture),
-            new Product(2,"Jeans",2000,Category.Cloth),
-            new Product(3,"FootBall",1000,Category.Sport)
-        }
-    };*/
+                <div class="col-sm-4">
+                    <a href="products.php#watches">
+                        <div class="thumbnail">
+                            <img src="img/7.jpg" alt="">
+                            <div class="caption">
+                                <h3>Watches</h3>
+                                <p>Original watches from the best brands.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
-}
+                <div class="col-sm-4">
+                    <a href="products.php#shirts">
+                        <div class="thumbnail">
+                            <img src="img/8.jpg" alt="">
+                            <div class="caption">
+                                <h3>Shirts</h3>
+                                <p>Our exquisite collection of shirts.</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+    

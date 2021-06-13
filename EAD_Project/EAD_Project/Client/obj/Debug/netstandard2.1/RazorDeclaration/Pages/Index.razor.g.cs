@@ -97,50 +97,6 @@ using EAD_Project.Client.Services;
         {
         }
         #pragma warning restore 1998
-#nullable restore
-#line 30 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\Index.razor"
- 
-    private void PlaceOrder()
-    {
-        Console.WriteLine("placing order");
-    }
-
-    public Cart Cart { get; set; } = new Cart();
-
-    private void AddtoCart(Product product)
-    {
-        Console.WriteLine($"Product added: {@product.Name}");
-        Cart.Add(product.Id);
-    }
-    private void RemoveFromCart(int pos)
-    {
-        Console.WriteLine($"Product removed at: {pos}");
-        Cart.Remove(pos);
-    }
-
-    protected async override Task OnInitializedAsync()
-    {
-        Catalog = await svc.GetCatalog();
-        await base.OnInitializedAsync();
-    }
-
-
-    private Catalog Catalog { get; set; } = new Catalog();
-
-    /*{
-        Products = new List<Product>
-        {
-            new Product(1,"Table",8000,Category.Furniture),
-            new Product(2,"Jeans",2000,Category.Cloth),
-            new Product(3,"FootBall",1000,Category.Sport)
-        }
-    };*/
-
-
-#line default
-#line hidden
-#nullable disable
-        [global::Microsoft.AspNetCore.Components.InjectAttribute] private ProductService svc { get; set; }
     }
 }
 #pragma warning restore 1591

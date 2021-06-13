@@ -1,12 +1,13 @@
-﻿<div class="card" style="width: 18rem;">
+﻿<div class="card" style="width: 18rem; margin:20px">
     <img class="card-img-top" height="150" src="@ProductImage(Product.Category)" alt="Card image cap">
     <div class="card-body">
         <h5 class="card-title">@Product.Name</h5>
         <p class="card-text">@Product.Price </p>
         <p class="card-text">@Product.Category </p>
         <div class="card-footer">
-            <a href="#" class="@ButtonClass"
+            <a href="/showcatalog" class="@ButtonClass"
                @onclick="@(async()=> await SelectedProduct.InvokeAsync(Product))"
+               
                >
                @ButtonTitle</a>
 
@@ -26,6 +27,10 @@
 
     [Parameter]
     public EventCallback<Product> SelectedProduct { get; set; }
+
+    //ye abi bnaya ha
+    [Parameter]
+    public EventCallback<int> Counter { get; set; }
 
     private string ProductImage(Category category)
     {

@@ -97,7 +97,7 @@ using EAD_Project.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 17 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\ProductItem.razor"
+#line 18 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\ProductItem.razor"
        
     [Parameter]
     public Product Product { get; set; }
@@ -110,6 +110,10 @@ using EAD_Project.Client.Services;
 
     [Parameter]
     public EventCallback<Product> SelectedProduct { get; set; }
+
+    //ye abi bnaya ha
+    [Parameter]
+    public EventCallback<int> Counter { get; set; }
 
     private string ProductImage(Category category)
     {

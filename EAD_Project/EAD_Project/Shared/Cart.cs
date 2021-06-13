@@ -6,7 +6,7 @@ namespace EAD_Project.Shared
 {
     public class Cart
     {
-        public List<int> Orders { get; set; } = new List<int>();
+        public static List<int> Orders { get; set; } = new List<int>();
         public Customer Customer { get; set; } = new Customer();
         public bool hasPaid { get; set; } = false;
 
@@ -19,6 +19,8 @@ namespace EAD_Project.Shared
         {
             Orders.RemoveAt(position);
         }
+        
+
     
 
     }

@@ -89,6 +89,7 @@ using EAD_Project.Client.Services;
 #line default
 #line hidden
 #nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/shoppingcart")]
     public partial class ShoppingCart : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -97,8 +98,12 @@ using EAD_Project.Client.Services;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 20 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\ShoppingCart.razor"
+#line 23 "C:\EAD\EAD_Project\EAD_Project\Client\Pages\ShoppingCart.razor"
        
+    
+    
+    [Parameter]
+    public EventCallback<int> Counter { get; set; }
 
     [Parameter]
     public EventCallback<int> Selected { get; set; }
@@ -119,11 +124,12 @@ using EAD_Project.Client.Services;
         (product: GetProductFromId(id),position:position));
 
     }
-
+    
 
 #line default
 #line hidden
 #nullable disable
+        [global::Microsoft.AspNetCore.Components.InjectAttribute] private CounterStateService Model { get; set; }
     }
 }
 #pragma warning restore 1591

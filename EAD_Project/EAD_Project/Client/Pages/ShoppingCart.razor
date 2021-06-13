@@ -1,7 +1,9 @@
-﻿
+﻿@page "/shoppingcart"
+@inject CounterStateService Model
 <h1>@Title</h1>
 @if(Cart.Orders.Any())
-  {
+{
+    Model.CounterCount = Cart.Orders.Count();
     <div class="card-group">
         @foreach(var (product,pos) in Products)
                 {
@@ -12,12 +14,17 @@
 
                     </ProductItem>
                 }
+        <h1>@Model.CounterCount</h1> 
     </div>
   }
 
 
 
 @code {
+    
+    
+    [Parameter]
+    public EventCallback<int> Counter { get; set; }
 
     [Parameter]
     public EventCallback<int> Selected { get; set; }
@@ -38,5 +45,5 @@
         (product: GetProductFromId(id),position:position));
 
     }
-
+    
 }

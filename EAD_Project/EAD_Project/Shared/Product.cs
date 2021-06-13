@@ -9,7 +9,16 @@ namespace EAD_Project.Shared
     {
         Sport,
         Cloth,
-        Furniture
+        Furniture,
+        Electronics,
+        Health_Beauty,
+        Toys,
+        Groceries,
+        Lifestyle,
+        Fashion,
+        Watches,
+        Sports,
+        Automotive
     }
     public class Product
     {
