@@ -1,0 +1,74 @@
+﻿@inject CounterStateService Model
+@implements IDisposable
+<head>
+    <link rel="stylesheet" href="../wwwroot/css/app.css">
+</head>
+<nav style=" background-color: #000000 !important;" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark border-bottom box-shadow mb-3 fixed-top">
+    <div class="container">
+        <NavLink class="navbar-brand text-light" href="/"><img style="margin-top:12px;" src="/Images/default-removebg (2).png" height="50px" width="100px" /></NavLink>
+        <button class="navbar-toggler" @onclick="ToggleNavMenu" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div style="padding-top:10px;" class="@NavMenuCssClass navbar-collapse d-sm-inline-flex flex-sm-row-reverse" @onclick="CollapseNavMenu">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item">
+                    <NavLink class="nav-link text-light" href="ShowCatalog" Match="NavLinkMatch.All">Shop</NavLink>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="counter">Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="fetchdata">Sell</a>
+                </li>
+            </ul>
+        </div>
+        <ul style="margin-right:-6%" class="nav navbar-nav navbar-right">
+           <AuthorizeView>
+            <li style="padding-left:4px">
+                <NavLink  class="text-light" href="ShoppingCart">
+                    <span>
+                        <div id="lblCartCount">@Model.CounterCount</div><img style="margin-bottom:5px" height="30" width="30" src="/Images/icons8-fast-cart-32.png" />
+                        <span class="badge badge-info my-cart-badge"></span>
+                    </span> Cart
+                </NavLink>
+            </li>
+               </AuthorizeView>
+            @*<li style="padding-top: 22px;padding-left: 18px"><a class="text-light" href="logout.html"><span><img style="margin-top:-2px" height="25" width="25" src="/Images/icons8-sign-out-30.png" /></span> Logout </a></li>*@
+            <li style="padding-top:22px;padding-left:18px">
+            <NavLink class="text-light" href="login">
+                <span><img height="22" width="22" src="/Images/icons8-signin-50.png" /></span> <LoginDisplay></LoginDisplay> </NavLink>
+            </li>
+
+        </ul>
+
+    </div>
+</nav>
+
+
+@code { bool collapseNavMenu = true;
+
+    string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    void CollapseNavMenu()
+    {
+        collapseNavMenu = true;
+    }
+ 
+    protected override void OnInitialized()
+    {
+        Model.OnChange += StateHasChanged;
+        base.OnInitialized();
+    }
+
+    public void Dispose()
+    {
+        Model.OnChange -= StateHasChanged;
+    }
+
+}

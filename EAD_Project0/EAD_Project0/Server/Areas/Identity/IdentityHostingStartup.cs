@@ -1,0 +1,22 @@
+﻿using System;
+using EAD_Project0.Server.Data;
+using EAD_Project0.Server.Models;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+
+[assembly: HostingStartup(typeof(EAD_Project0.Server.Areas.Identity.IdentityHostingStartup))]
+namespace EAD_Project0.Server.Areas.Identity
+{
+    public class IdentityHostingStartup : IHostingStartup
+    {
+        public void Configure(IWebHostBuilder builder)
+        {
+            builder.ConfigureServices((context, services) => {
+            });
+        }
+    }
+}

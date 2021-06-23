@@ -1,0 +1,49 @@
+﻿<h3>AddProduct</h3>
+
+
+
+<EditForm  Model="@Product">
+    <DataAnnotationsValidator />
+
+    <div class="form-group row mb-1">
+        <label class="col-sm-3 col-form-label" for="FirstName">Name:</label>
+        <div class="col-sm-9">
+            @*<InputText class="form-control" @bind-Value="@Product.Name" />
+            <ValidationMessage For="@(()=>Product.Name)" />*@
+        </div>
+    </div>
+
+    <div class="form-group row mb-1">
+        <label class="col-sm-3 col-form-label" for="Street">Street:</label>
+        <div class="col-sm-9">
+            @*<InputText class="form-control" @bind-Value="@Product.Price.ToString()" />
+            <ValidationMessage For="@(()=>Product.Price)" />*@
+        </div>
+    </div>
+
+    <div class="form-group row mb-1">
+        <label class="col-sm-3 col-form-label" for="City">City:</label>
+        <div class="col-sm-9">
+            @*<InputText class="form-control" @bind-Value="@Product.Category.ToString()" />
+            <ValidationMessage For="@(()=>Product.Category)" />*@
+        </div>
+    </div>
+    @*<div class="form-group mb-0">
+        <button type="submit" id="btnRegister" class="@ButtonClass">
+            @ButtonTitle
+        </button>
+
+    </div>*@
+
+</EditForm>
+
+
+
+
+@code {
+  
+
+    [Parameter]
+    public Product Product{ get; set; } = new Product();
+
+}

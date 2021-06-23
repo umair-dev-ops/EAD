@@ -1,0 +1,12 @@
+D:\OneDrive\Desktop\a hamza\EAD_Project0\EAD_Project0\Shared\bin\Debug\net5.0\EAD_Project0.Shared.deps.json
+D:\OneDrive\Desktop\a hamza\EAD_Project0\EAD_Project0\Shared\bin\Debug\net5.0\EAD_Project0.Shared.dll
+D:\OneDrive\Desktop\a hamza\EAD_Project0\EAD_Project0\Shared\bin\Debug\net5.0\ref\EAD_Project0.Shared.dll
+D:\OneDrive\Desktop\a hamza\EAD_Project0\EAD_Project0\Shared\bin\Debug\net5.0\EAD_Project0.Shared.pdb
+D:\OneDrive\Desktop\a hamza\EAD_Project0\EAD_Project0\Shared\obj\Debug\net5.0\EAD_Project0.Shared.csproj.AssemblyReference.cache
+D:\OneDrive\Desktop\a hamza\EAD_Project0\EAD_Project0\Shared\obj\Debug\net5.0\EAD_Project0.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Desktop\a hamza\EAD_Project0\EAD_Project0\Shared\obj\Debug\net5.0\EAD_Project0.Shared.AssemblyInfoInputs.cache
+D:\OneDrive\Desktop\a hamza\EAD_Project0\EAD_Project0\Shared\obj\Debug\net5.0\EAD_Project0.Shared.AssemblyInfo.cs
+D:\OneDrive\Desktop\a hamza\EAD_Project0\EAD_Project0\Shared\obj\Debug\net5.0\EAD_Project0.Shared.csproj.CoreCompileInputs.cache
+D:\OneDrive\Desktop\a hamza\EAD_Project0\EAD_Project0\Shared\obj\Debug\net5.0\EAD_Project0.Shared.dll
+D:\OneDrive\Desktop\a hamza\EAD_Project0\EAD_Project0\Shared\obj\Debug\net5.0\ref\EAD_Project0.Shared.dll
+D:\OneDrive\Desktop\a hamza\EAD_Project0\EAD_Project0\Shared\obj\Debug\net5.0\EAD_Project0.Shared.pdb
